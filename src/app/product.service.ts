@@ -5,7 +5,7 @@ import {Response} from '@angular/http'
 @Injectable()
 export class ProductService {
 
-  private _albumUrl:  '../assets/album.json';
+  private _albumUrl: string = '../assets/album.json';
   getAlbum(id) {
     Number;
   }
