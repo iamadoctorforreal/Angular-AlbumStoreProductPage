@@ -6,8 +6,8 @@ import {Response} from '@angular/http'
 export class ProductService {
 
   private _albumUrl: string = '../assets/album.json';
-  getAlbum(id) {
-    Number;
+  getAlbum(id:Number) {
+  
   }
   constructor(private _http: Http) { }
 
